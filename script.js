@@ -37,7 +37,7 @@ window.onload = function () {
     for (let i = 0; i < lista.length; i++) {
        
         var item = `
-        <a href= "${lista[i].trailer}">
+        <a href= "${lista[i].trailer}" target="_blank">
              <div id="anime-item">
                  <img src= "${lista[i].img}">    
                  <p>${lista[i].nome}</p>     
