@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    height: 90vh;
+    background-color:black;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    font-size: 30px;
+    color: aliceblue;
+    background-color: rgb(206, 94, 14);;
+}
+
+#animes{
+    font-family: 'Poppins', sans-serif;
+    margin: auto;
+    margin-top: 50px;
+    width: 80%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-wrap:wrap ;
+}
+
+#animes div{
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    color: antiquewhite;
+
+}
+
+#anime-item:hover{
+    cursor: pointer;
+    box-shadow: 2px 2px 2px rgb(197, 99, 29);
+}
+
+a{    
+    text-decoration: none;
+}
+
+#animes img{
+    width: 200px;
+    height: 300px;
+
+}
+
+footer{
+    background-color: rgb(206, 94, 14);
+    text-align: center;
+    color:  antiquewhite;
+    margin-top: 50px;
+    padding: 10px;
+}
