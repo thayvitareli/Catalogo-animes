@@ -2,6 +2,7 @@
 Webpage de catalogo de animes
 
 Projeto desenvolvido com foco principal na prática do javascript, que foi utilizado para inserir cada item do catalogo na página.
+Ao clicar na imagem, o usuário é redirecionado para o trailer do anime no youtube.
 
 
 
