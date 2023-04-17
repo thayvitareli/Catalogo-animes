@@ -1,21 +1,100 @@
 body{
+   
     margin: 0;
     height: 90vh;
     background-color:black;
     font-family: 'Montserrat', sans-serif;
+}
+
+/* página Login*/
+
+#login{
+    background-image: url("/assets/tela-login.jpg");
+    background-size: cover;
+    width: 100vh;
+    height: 100vh;
+    margin: auto;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+#login-div{
+
+    background-color: rgb(109, 108, 108);
+    opacity: 0.89;
+    width: 320px;
+    height: 50vh;
+    color: white;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    border-radius: 5px;
+}
+
+#login input{
+    width: 200;
+    padding: 5px 40px;
+    border-radius: 5px;
+    border-style:double;
+    font-size: 16px;
+}
+
+#button-login{
+    padding: 5px 40px;
+    border-radius: 5px;
+    border-style: none;
+    width: 250px;
+    font-size: 16px;
+    background-color: rgb(206, 94, 14);
+    color: white;
+    font-weight: bolder;
 
 }
 
+#button-login:hover{
+    background-color:rgb(233, 121, 41);
+}
+
+
+/* página catalogo */
 header{
     display: flex;
-    justify-content: center;
+    justify-content:center;
     align-items: center;
     height: 60px;
     font-size: 30px;
     color: aliceblue;
-    background-color: rgb(206, 94, 14);;
+    background-color: rgb(206, 94, 14);
+
 }
 
+#logo{
+    text-align: center;
+    width: 90%;
+}
+
+/*Botao sair*/
+#sair{
+    margin-right: 5px;
+    border-style: none;
+    background-color: rgb(206, 94, 14);
+    font-size: 20px;
+    color: aliceblue;
+
+}
+
+#sair:hover{
+    color: rgb(196, 191, 191);
+}
+
+/* main */
 #animes{
     font-family: 'Poppins', sans-serif;
     margin: auto;
@@ -37,7 +116,7 @@ header{
 
 #anime-item:hover{
     cursor: pointer;
-    box-shadow: 2px 2px 2px rgb(197, 99, 29);
+    box-shadow: 3px 2px 5px rgb(197, 99, 29);
 }
 
 a{    
