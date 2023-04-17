@@ -9,6 +9,5 @@ Ao clicar na imagem, o usuário é redirecionado para o trailer do anime no yout
 
 
 
-
-https://user-images.githubusercontent.com/108371984/232355362-76ea301d-ab4f-4ac1-866a-20ecab5801a0.mp4
+https://user-images.githubusercontent.com/108371984/232355744-1e3b0efb-c912-472d-9bae-6dba85afc1d6.mp4
 
